@@ -1,0 +1,113 @@
+/*regular elements*/
+button{
+    border: #0071e3 2px solid;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0071e3;
+    transition: all 200ms;
+    border-radius: 980px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+button:hover{
+    background-color: white;
+    color: #0071e3;
+}
+
+body{
+    height: 100px;
+}
+
+h2{
+    letter-spacing: 1.5px;
+}
+
+p{
+    letter-spacing: 0.5px;
+}
+/*classes*/
+
+/*id*/
+#menu-container{
+    justify-content: space-between;
+    align-items:center;
+    position: fixed;
+    top: 0px;
+    background-color:white;
+    opacity: 100%;
+    width: 100%;
+    border: none;
+    padding: 20px;
+    padding-top: 10px;
+    transition: all 200ms;
+}
+
+#menu-container:hover{
+    opacity: 100%;
+}
+
+#headings1{
+    background-image: url("Da-vinci copy.jpg");
+    max-height: 1000px;
+    font-size: 62px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding-top: 300px;
+}
+
+#main-text-container, #main-text-container2{
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;/*space-around;*/
+    align-items: flex-end;
+}
+
+#container-1{
+    display: block;
+    height: 585px;
+    width: 600px;
+    background-color: aliceblue;
+}
+
+#container-2{
+    display: block;
+    height: 575px;
+    width: 600px;
+    background-color: azure;
+}
+
+#container-3{
+    display: block;
+    height: 585px;
+    width: 590px;
+    background-color:rgb(250, 247, 244);
+}
+
+#container-4{
+    display: block;
+    height: 585px;
+    width: 600px;
+    background-color: rgb(251, 252, 255);
+}
+
+#container-5{
+    background-color: rgb(248, 246, 233);
+    font-size: 22px;
+    line-height: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#container-1, #container-2, #container-3, #container-4, #container-5{
+    padding: 15px;
+    margin: 10px;
+    color: rgb(65, 64, 64);
+}
+
+/*animations*/
